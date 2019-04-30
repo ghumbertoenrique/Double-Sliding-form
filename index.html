@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Aqui va a ir la font Awasome -->
+    <link
+    rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+
+
+    <title>Sliding Form</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <div class="social-container">
+            <h1>Crear Cuenta</h1>
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>O usa tu email para registrarte</span>
+          <input type="text" name="Nombre" placeholder="Nombre">
+          <input type="email" name="email" placeholder="Email">
+          <input type="password" name="clave" placeholder="Clave">
+          <button type="button" name="button">Registrarme</button>
+        </form>
+      </div>
+
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <div class="social-container">
+            <h1>Ingresar</h1>
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>O usa tu Cuenta</span>
+          <input type="email" name="email" placeholder="Email">
+          <input type="password" name="clave" placeholder="Clave">
+          <a href="#">¿Olvidaste tu Contraseña?</a>
+          <button type="button" name="button">Ingresar</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Bienvenido!</h1>
+            <p>
+              Para mantenerte conectado con tus informacion
+            </p>
+            <button class="ghost" id="signIn">Ingresar</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Hola, Amigo!</h1>
+            <p> Empieza tu viaje con nosotros</p>
+            <button class="ghost" id="signUp">Registrarme</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </body>
+
+  <script src="main.js" charset="utf-8"></script>
+</html>
